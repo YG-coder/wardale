@@ -52,13 +52,15 @@ main {
   gap: 5px;
 }
 
-.board-block {
+.board-column {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 3px solid #d3d6da;
   width: 60px;
   height: 60px;
+  font-size: 36px;
+  font-weight: bolder;
 }
 
 footer {
@@ -94,4 +96,16 @@ footer {
 
 .wide img {
   width: 25px;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  background-color: white;
+  width: 200px;
+  height: 100px;
 }
